@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource manager">
+      <UniqueIdentifier>{8122bdb4-df8d-4fcb-9bef-e112758027d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine">
+      <UniqueIdentifier>{39809d48-65ab-4749-a474-1e4c226ea429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Shader program">
+      <UniqueIdentifier>{387db4c2-4887-497d-a09c-d80c706853b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Texture">
+      <UniqueIdentifier>{cc61bd7a-281b-473e-b43d-fdffbbf71edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5563415e-be70-4d1b-ab1b-7561666d5c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Sprite">
+      <UniqueIdentifier>{773fc0e9-f930-4f77-9cf6-00fc93114f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{634f66a0-499e-4855-93a5-6a3263cc0fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game objects">
+      <UniqueIdentifier>{9c75d36f-3f44-4df6-9c43-c4aeaa5ce89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game objects\Brick">
+      <UniqueIdentifier>{346b424d-db91-4bbc-8e22-1d3578848fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game objects\Level">
+      <UniqueIdentifier>{3d24daae-20b0-436d-9e23-a66128965f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game objects\Racket">
+      <UniqueIdentifier>{377fb0c1-47b7-4115-bd74-24ade6a4a22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Background">
+      <UniqueIdentifier>{800cdff0-f38d-4295-842d-85cb63d137dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game objects\Ball">
+      <UniqueIdentifier>{d1706bf3-32db-40aa-a3e4-d3b74c61b477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Particle generator">
+      <UniqueIdentifier>{61deb6f8-d3b9-4935-9acd-8ee9cabff286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Particle generator\Particle">
+      <UniqueIdentifier>{d8ca24fa-4374-4ad5-aacd-04b1bfc280c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render engine\Text renderer">
+      <UniqueIdentifier>{4434a595-e108-44da-a06c-be9637a5d6ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Render engine\Shader program</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Resource manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Render engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Render engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Game\Game objects\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game\Game objects\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Racket.cpp">
+      <Filter>Game\Game objects\Racket</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Render engine\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Game\Game objects\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Render engine\Particle generator\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGenerator.cpp">
+      <Filter>Render engine\Particle generator</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Render engine\Text renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resource manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Render engine\Shader program</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Render engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Render engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Game\Game objects\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game\Game objects\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Racket.h">
+      <Filter>Game\Game objects\Racket</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Render engine\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Game\Game objects\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Render engine\Particle generator\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGenerator.h">
+      <Filter>Render engine\Particle generator</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Render engine\Text renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
